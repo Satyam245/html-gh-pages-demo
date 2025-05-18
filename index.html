@@ -1,9 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My GitHub Pages Site</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome to My Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #83a4d4, #b6fbff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: white;
+      padding: 3rem;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      text-align: center;
+      max-width: 600px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #333;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #666;
+    }
+
+    .btn {
+      margin-top: 2rem;
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      background-color: #0077ff;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #005ad3;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello from GitHub Actions 🚀</h1>
+  <div class="card">
+    <h1>Hello, I'm Satyam 👋</h1>
+    <p>Welcome to my GitHub Pages site!<br>This page is powered by GitHub Actions 🚀</p>
+    <a href="https://github.com/satyam" class="btn" target="_blank">Visit My GitHub</a>
+  </div>
 </body>
 </html>
